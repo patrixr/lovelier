@@ -23,9 +23,6 @@ program
     const game      = Love(folder, { bin });
     const compile   = Compiler(extension, folder);
 
-    console.log(program.opts());
-
-
     logger.info('running game in development mode');
     watch(glob(folder, extension), [ compile ], () => {
       logger.info('restarting game');
