@@ -1,5 +1,7 @@
 # Lovelier
 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
 A Love2D reloader with Moonscript support.
 
 ## Installation
