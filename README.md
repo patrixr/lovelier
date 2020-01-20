@@ -1,2 +1,47 @@
-# lovelier
-A Love2D reloader with Moonscript support
+# Lovelier
+
+A Love2D reloader with Moonscript support.
+
+## Installation
+
+```bash
+$> npm install -g lovlier
+```
+
+## Usage
+
+```bash
+$> lovelier --help
+
+Usage: lovelier [options] [command]
+
+Options:
+  -V, --version  output the version number
+  -m, --moon     use moonscript
+  -b, --bin      love binary path
+  -h, --help     output usage information
+
+Commands:
+  dev <folder>   run the game in development mode
+```
+
+### Running your Love2D Project
+
+```bash
+$> cd myProject
+$> lovelier dev .
+```
+
+#### With Moonscript
+
+```bash
+$> cd myProject
+$> lovelier --moon dev .
+```
+
+#### With a specific Love2D path
+
+```bash
+$> cd myProject
+$> lovelier --bin /usr/local/bin/love dev .
+```
