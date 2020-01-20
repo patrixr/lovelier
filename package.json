@@ -1,7 +1,7 @@
 {
   "name": "lovelier",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A Love2D live-reloader with Moonscript support",
   "main": "index.js",
   "bin": {
     "lovelier": "./bin/lovelier.js"

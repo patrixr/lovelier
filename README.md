@@ -4,10 +4,15 @@
 
 A Love2D reloader with Moonscript support.
 
+## Dependencies
+
+* [Love2D](https://love2d.org)
+* [Moonscript](http://moonscript.org) (optional)
+
 ## Installation
 
 ```bash
-$> npm install -g lovlier
+$> npm install -g lovelier
 ```
 
 ## Usage
