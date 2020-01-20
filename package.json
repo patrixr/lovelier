@@ -6,9 +6,9 @@
   "bin": {
     "lovelier": "./bin/lovelier.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["lua", "moonscript", "love2d", "game", "reload"],
+  "author": "patrick@tronica.io",
+  "license": "MIT",
   "dependencies": {
     "commander": "^4.1.0",
     "debug": "^4.1.1",
