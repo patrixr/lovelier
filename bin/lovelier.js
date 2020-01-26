@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const program     = require('commander');
+const path        = require('path');
 const { version } = require('../package.json');
 const { watch }   = require('../lib/watch');
 const Love        = require('../lib/love');
@@ -18,6 +19,8 @@ program
   .command('dev <folder>')
   .description('run the game in development mode')
   .action((folder) => {
+    folder = path.resolve(folder);
+
     const { moon, bin }  = program.opts();
     const extension = moon ? 'moon' : 'lua';
     const game      = Love(folder, { bin });

@@ -52,3 +52,9 @@ $> lovelier --moon dev .
 $> cd myProject
 $> lovelier --bin /usr/local/bin/love dev .
 ```
+
+## Patform notes
+
+### OSX
+
+Running love can trigger a `unidentified developer` error, which can be solved by allowing love in the [System Preferences](https://www.macworld.co.uk/how-to/mac-software/mac-app-unidentified-developer-3669596/)

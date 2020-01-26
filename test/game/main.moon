@@ -1,3 +1,2 @@
 love.draw = (a) ->
-  love.graphics.print("Test App !", 400, 300)
-
+  love.graphics.print("Hello World", 400, 300)
