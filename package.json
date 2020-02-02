@@ -1,12 +1,18 @@
 {
   "name": "lovelier",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Love2D live-reloader with Moonscript support",
   "main": "index.js",
   "bin": {
     "lovelier": "./bin/lovelier.js"
   },
-  "keywords": ["lua", "moonscript", "love2d", "game", "reload"],
+  "keywords": [
+    "lua",
+    "moonscript",
+    "love2d",
+    "game",
+    "reload"
+  ],
   "author": "patrick@tronica.io",
   "license": "MIT",
   "dependencies": {
