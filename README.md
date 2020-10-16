@@ -53,7 +53,7 @@ $> cd myProject
 $> lovelier --bin /usr/local/bin/love dev .
 ```
 
-## Patform notes
+## Platform notes
 
 ### OSX
 
